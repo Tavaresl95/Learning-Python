@@ -23,7 +23,7 @@ print('Delta = {}² - 4 * {} * {}'.format(b, a, c))
 print('Delta = {}'.format(delt))
 
 if delt < 0:
-    print('Essa equação não possui raizes em numeros reais.:D :D')
+    print('Essa equação não possui raizes em numeros reais. : :DD')
 	print('Tente outra equação.')
 
 if delt > 0:

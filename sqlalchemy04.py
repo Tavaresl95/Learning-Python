@@ -8,7 +8,7 @@ from sqlalchemy.orm import scoped_session, sessionmaker
 
 app = Flask(__name__)
 
-engine = create_engine('sqlite:///C:\\Users\\lucas\\PycharmProjects\\python_learning\SQL\\aeroporto.sqlite')
+engine = create_engine('sqlite:///C:\\Users\\lucas\\Desktop\\PycharmProjects\\python_learning\SQL\\aeroporto.sqlite')
 db = scoped_session(sessionmaker(bind=engine))
 
 @app.route("/")
